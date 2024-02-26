@@ -1,0 +1,2 @@
+ALTER SCHEMA n5 TRANSFER dbo.Permisos;
+ALTER SCHEMA n5 TRANSFER dbo.TipoPermisos;

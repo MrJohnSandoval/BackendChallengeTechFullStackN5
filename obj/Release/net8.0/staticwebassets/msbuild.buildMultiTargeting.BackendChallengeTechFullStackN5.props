@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BackendChallengeTechFullStackN5.props" />
+</Project>
