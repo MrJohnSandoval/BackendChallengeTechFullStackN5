@@ -73,7 +73,7 @@ namespace BackendChallengeTechFullStackN5.Controllers
                     permiso = permiso
                 };
 
-                //SendMessageToKafka(kafkaMessage);
+                SendMessageToKafka(kafkaMessage);
 
                 // Indexo el documento en Elasticsearch
                 var indexResponse = _elasticClient.Index<StringResponse>("permisos-n5", JsonConvert.SerializeObject(document));

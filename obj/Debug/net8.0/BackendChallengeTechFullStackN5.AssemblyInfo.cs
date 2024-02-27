@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackendChallengeTechFullStackN5")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70791ac266675b21064567e4b938996eafdc485f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+754b9efde4f582f28dc57e7370d970689fbd0ddf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackendChallengeTechFullStackN5")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackendChallengeTechFullStackN5")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
