@@ -112,6 +112,18 @@ Le envia datos al backend, para actualizarlos en la tabla permisos, requiere un 
 	"fechaPermiso": "2024-02-19T00:00:00"
 }
 ```
+## Dependencias
+
+- [Confluent.Kafka](https://www.nuget.org/packages/Confluent.Kafka): 2.3.0
+- [Elasticsearch.Net](https://www.nuget.org/packages/Elasticsearch.Net): 7.17.5
+- [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer): 8.0.0
+- [Microsoft.EntityFrameworkCore.Tools](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools): 8.0.0
+  - PrivateAssets: all
+  - IncludeAssets: runtime; build; native; contentfiles; analyzers; buildtransitive
+- [Nest](https://www.nuget.org/packages/Nest): 7.17.5
+- [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json): 13.0.3
+
+
 ## Autor
 John Sandoval
 - [@MrJohnSandoval](https://www.github.com/MrJohnSandoval)
