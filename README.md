@@ -16,6 +16,10 @@ Este es el desarrollo del backend del challenge N5, desarrollado por John Sandov
 | :---------- | :------- | :------------------------- |
 | `api_key` | `string` | **No solicitada*** |
 
+#### Función:
+
+Retorna todos los registros de la tabla permisos sin paginación.
+
 #### GetPermission
 
 ```http
