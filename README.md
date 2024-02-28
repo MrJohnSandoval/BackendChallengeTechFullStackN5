@@ -31,7 +31,7 @@ Este es el desarrollo del backend del challenge N5, desarrollado por John Sandov
 Busca un registro por id en la tabla permisos y retorna los datos del registro encontrado, se usa para cargar y mostrar en el frontend los datos que se van a modificar o eliminar, antes de hacerlo.
 ```json
 {
-	"id": 1,
+	"id": {1},
 	"nombreEmpleado": "Jon",
 	"apellidoEmpleado": "Doe",
 	"tipoPermiso": 1,
@@ -54,9 +54,9 @@ Busca un registro por id en la tabla permisos y retorna los datos del registro e
 Le envia datos al backend, para que los ingrese en la tabla permisos, requiere un esquema de datos de tipo JSON, en el body de la petición.
 ```json
 {			
-	"nombreEmpleado": "Alejandro",
-	"apellidoEmpleado": "Salomon",
-	"tipoPermiso": 3,
+	"nombreEmpleado": "John",
+	"apellidoEmpleado": "Doe",
+	"tipoPermiso": 1,
 	"fechaPermiso": "2024-02-19T00:00:00"
 }
 ```
